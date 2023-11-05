@@ -1,0 +1,217 @@
+:root{
+--blue-color:#2e3192;
+--red-color:#e4332f;
+--orange-color:#f56039;
+--semiDarkRed-color:#ef2853;
+--silver-color:#eef6ff;
+--milkyWhite-color:#fff2f2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    padding: 0;
+}
+.first-nav{
+    background-color: var(--blue-color);
+}
+.first-nav .nav{
+    height: 35px;
+    justify-content: space-between;
+}
+.first-nav .nav-item{
+    color: var(--silver-color) ;
+    font-size: 10px;
+}
+.nav-item .active{
+    border-top: 2px solid var(--semiDarkRed-color);
+}
+.nav-link{
+    color: var(--blue-color);
+}
+.cnext ,.carousel-indicators [data-bs-target]{
+    background-color: var(--blue-color);
+}
+.c-text{
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 180px;
+    z-index: 2;
+}
+.c-btn1,.c-btn2{
+    font-size: 12px;
+    padding:10px 40px;
+    letter-spacing: 2px;
+}
+.c-subtitle{
+    background-color: var(--orange-color);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.c-title{
+    color: var(--blue-color);
+    background-color: white;
+    margin-bottom: 10px;
+    font-size: 3rem;
+    padding: 2px 10px;
+    display: inline-block;
+    font-weight: bold;
+}
+.c-btn1{
+    background-color: var(--blue-color);
+    color: white;
+    margin-right: 10px;
+}
+.c-btn1:hover{
+    color: var(--blue-color);
+    background-color: white;
+}
+.c-btn2:hover{
+    background-color: var(--blue-color);
+    color: white;
+}
+.c-btn2{
+    color: var(--blue-color);
+    background-color: white;
+}
+.first-nav .nav-item span{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.logo{
+    width: 50px;
+}
+.burger{
+    position: absolute;
+    top: 10px;
+    left: 90%;
+}
+.services{
+    margin-top: 80px !important;
+    /* height: 150vh; */
+}
+.cardTitle{
+    color: var(--blue-color);
+}
+.cardText{
+    color: #707070;
+    font-size: 14px;
+}
+.cardBtn{
+    color: var(--blue-color);
+    font-size: small;
+    padding-left: 0;
+}
+.cardBtn:hover{
+    background-color: var(--blue-color);
+    color: var(--silver-color);
+}
+.cardList{
+    margin-bottom: 1px;
+}
+.cardListItem::before{
+content: '+';
+color: var(--orange-color);
+font-size: 17px;
+position: relative;
+right: 10px;
+}
+.card3{
+    background-color: var(--milkyWhite-color);
+}
+.cardDayBorder{
+    border-bottom: 1px dashed var(--orange-color);
+    display: flex;
+    flex-grow: 1;
+    height: 0;
+    margin: 15px;
+}
+.cardCall{
+    width: 100%;
+    height: 15%;
+    font-size: 1.2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border-radius: 0px 0px 4px 4px;
+    bottom: 0;
+    background-color: var(--blue-color);
+    color: var(--silver-color);
+}
+.servicesRow1{
+    margin-bottom: 100px;
+}
+.dedication{
+    background-color: var(--silver-color);
+    
+}
+.dedication-text{
+    padding: 100px;
+    padding-left: 150px;
+}
+.dedication-text span{
+    background-color: var(--silver-color);
+    color: var(--orange-color);
+    font-weight: 500;
+    font-size: 0.6rem;
+    letter-spacing: 4px;
+    text-align: left;
+    padding-left: 0;
+}
+.dedication-text p{
+    background-color: var(--silver-color);
+    font-size: 2rem;
+    padding: 0;
+    margin: 0;
+}
+.dedication-text .cardText{
+    font-size:1rem ;
+}
+.dedication-img{
+    background-image: url(/assets/img/div.elementor-column-wrap.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.dedication-img:hover .outerCircle{
+    scale: 1.1;
+    transition: 0.4s;
+}
+.outerCircle{
+    background-color: transparent;
+    border: 2px solid white;
+    transition: 0.4s;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 0px 4px black;
+}
+.innerCircle{
+    background-color: white;
+    border-radius: 50%;
+    /* border: 1px solid gray; */
+    height: 90px;
+    width: 90px;
+}
+.innerIcon{
+    font-size:2rem;
+    color: var(--orange-color);
+}
+.reviews{
+    margin-top: 80px;
+}
+.reviws-text span{
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: transparent;
+    color: var(--orange-color);
+    font-weight: 500;
+}
