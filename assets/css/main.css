@@ -1,5 +1,8 @@
 :root{
-
+--blueColor:#2386c8;
+--pageColor:#f9f9f9;
+--copyRightColor:#f0f0f0;
+--grayColor:#545454;
 }
 *{
     padding: 0;
