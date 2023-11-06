@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="assets/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/fontawesome-v6.4.2/fontawesome-v6.4.2/css/all.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inclusive+Sans&family=Qahiri&family=Roboto+Slab&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="assets/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/main.js"></script>
@@ -17,18 +20,25 @@
             <div class="left-nav">
                 <a href="" class="btn" role="button">حساب جديد <i class="fa-solid fa-user-plus" style="color: #ffffff;"></i></a>
                 <a href="" class="btn" role="button"> دخول <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i></a>
-                <button class="btn"><i class="fas fa-search" style="color: #ffffff;"></i></button>
+                <button class="btn" href="#search"><i class="fas fa-search" style="color: #ffffff;"></i></button>
+                
             </div>
             <div class="right-nav">
                 <button class="btn burger" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                     <i class="fa fa-bars" style="color: #ffffff;"></i>
                 </button>
+                <nav>
+                    <li><h3>مقاول</h3></li>
+                    <li><a href="" class="btn " role="button"><i class="fa-solid fa-plus" ></i>أضف مشروع </a></li>
+                    <li><a href="" class="btn " role="button"><i class="fa-solid fa-users" ></i>ابحث عن مستقلين </i></a></li>
+                    <li><a href="" class="btn " role="button"><i class="fa-solid fa-image" ></i>تصفح معرض المشاريع </i></a></li>
+                </nav>
                 <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                     <div class="offcanvas-header">
                         <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body" >
-                        <input class="search" type="search" value="" placeholder="ابحث عن...">
+                        <input class="search" type="search" id="search" value="" placeholder="ابحث عن...">
                         <a href="" class="btn " role="button">حساب جديد <i class="fa-solid fa-user-plus" ></i></a>
                         <a href="" class="btn " role="button">تسجيل دخول <i class="fa-solid fa-right-to-bracket" ></i></a>
                         <a href="" class="btn " role="button">أضف مشروع <i class="fa-solid fa-plus" ></i></a>

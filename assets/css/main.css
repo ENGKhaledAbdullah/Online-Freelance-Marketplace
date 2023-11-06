@@ -11,7 +11,8 @@
 }
 .navbar{
     background-color: var(--blueColor);
-    padding: 15px 60px;
+    padding: 5px 60px;
+    height: 80px;
 }
 .left-nav button,.left-nav a.btn{
     background-color: transparent;
@@ -25,9 +26,33 @@
 .burger i{
     font-size: 32px;
 } 
+.right-nav{
+    display: flex;
+    direction: rtl;
+}
+.right-nav nav {
+    list-style: none;
+    display: flex;
+    color: white;
+}
+.right-nav nav i,.right-nav nav a{
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+}
+.right-nav nav a:hover{
+    background-color: #7abbe6;
+}
+.right-nav li h3{
+    color: white;
+    font-family: 'Qahiri', sans-serif;
+    font-size: 60px;
+    margin-right: 30px;
+}
 .offcanvas{
     direction: rtl;
-    margin-top: 76px;
+    margin-top: 80px;
     width: 250px !important;
 }
 .offcanvas-header{
