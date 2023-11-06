@@ -1,0 +1,14 @@
+$(function(){
+    $("#project-categories-list1").click(function(){
+        $("#project-categories-list-items1").toggle(100);
+        $("#oc-arrow1").toggleClass("rotate-arrow");
+    });   
+    $("#project-categories-list2").click(function(){
+        $("#project-categories-list-items2").toggle(100);
+        $("#oc-arrow2").toggleClass("rotate-arrow");
+    });   
+    $("#project-categories-list3").click(function(){
+        $("#project-categories-list-items3").toggle(100);
+        $("#oc-arrow3").toggleClass("rotate-arrow");
+    });   
+});
