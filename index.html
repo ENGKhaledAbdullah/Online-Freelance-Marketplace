@@ -11,12 +11,12 @@
 <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inclusive+Sans&family=Qahiri&family=Roboto+Slab&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <script src="assets/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/main.js"></script> -->
     <title>مقاول</title>
 </head>
 <body >
     <header>
-        <div class="navbar container-fluid">
+        <div class="navbar container-fluid d-lg-flex d-md-flex position-fixed z-3 col-lg-12 col-md-12 d-sm-none">
             <div class="left-nav">
                 <a href="" class="btn" role="button">حساب جديد <i class="fa-solid fa-user-plus" style="color: #ffffff;"></i></a>
                 <a href="" class="btn" role="button"> دخول <i class="fa-solid fa-right-to-bracket" style="color: #ffffff;"></i></a>
@@ -29,9 +29,9 @@
                 </button>
                 <nav>
                     <li><h3>مقاول</h3></li>
-                    <li><a href="" class="btn " role="button"><i class="fa-solid fa-plus" ></i>أضف مشروع </a></li>
-                    <li><a href="" class="btn " role="button"><i class="fa-solid fa-users" ></i>ابحث عن مستقلين </i></a></li>
-                    <li><a href="" class="btn " role="button"><i class="fa-solid fa-image" ></i>تصفح معرض المشاريع </i></a></li>
+                    <li><a href="" class="btn nav-btn d-lg-inline-block d-md-none d-sm-none" role="button"><i class="fa-solid fa-plus" ></i>أضف مشروع </a></li>
+                    <li><a href="" class="btn nav-btn d-lg-inline-block d-md-none d-sm-none" role="button"><i class="fa-solid fa-users" ></i>ابحث عن مستقلين </i></a></li>
+                    <li><a href="" class="btn nav-btn d-lg-inline-block d-md-none d-sm-none" role="button"><i class="fa-solid fa-image" ></i>تصفح معرض المشاريع </i></a></li>
                 </nav>
                 <div class="offcanvas offcanvas-end" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                     <div class="offcanvas-header">
@@ -78,6 +78,95 @@
                 </div>
             </div>
         </div>
+        <div class='navigation'>
+            <ul>
+                <li class="list active" ><a href=""><span class="icon">
+                    <i class="fa fa-home"></i>
+                    <!-- <ion-icon name="home-outline"></ion-icon> -->
+                    </span></a></li>
+                <li class="list" ><a href=""><span class="icon">
+                    <i class="fa fa-home"></i>	
+                    <!-- <ion-icon name="person-outline"></ion-icon> -->
+                    </span></a></li>
+                <li class="list" ><a href=""><span class="icon">
+                    <i class="fa fa-home"></i>		
+                    <!-- <ion-icon name="chatbubble-outline"></ion-icon> -->
+                    </span></a></li>
+                <li class="list" ><a href=""><span class="icon">
+                    <i class="fa fa-home"></i>
+                    <!-- <ion-icon name="camera-outline"></ion-icon> -->
+                    </span></a></li>
+                <li class="list" ><a href=""><span class="icon">
+                    <i class="fa fa-home"></i>
+                    <!-- <ion-icon name="settings-outline"></ion-icon> -->
+                    </span></a></li>
+                <!-- <div class="indicator"></div> -->
+            </ul>
+        </div>
     </header>
+    <main>
+        <div class="container-fluid hero d-flex p-0">
+            <div class="hero-background col-12"></div>
+            <div class="hero-content d-flex flex-column col-12">
+                <h1 class="heroTitle text-center">وظف أفضل المقاولين أو المستقلين لإنجاز أعمالك عن بعد</h1>
+                <h1 class="heroSubTitle text-center">أنجز مشاريعك بسهولة  وأمان  عبر  أكبر منصة عمل حر بالعالم العربي</h1>
+                <input type="text" class="hero-input d-inline-block w-100 m-auto" name="text" id="" placeholder="أدخل عنوان المشروع الذي تريد تنفيذه...">
+                <a href="" class="hero-btn btn mt-md-3 mt-sm-3" role="button">ابحث عن عمل</a>
+                <p class="hero-text align-self-center ">معلومات أكثر</p>
+                <img class="scroll-img align-self-center" src="assets/img/scroll-down.png" alt="">
+            </div>
+        </div>
+        <div class="container-fluid content d-flex flex-column">
+            <h1 class="contentTitle text-center">هل لديك عمل تريد إنجازه</h1>
+            <div class="content-text">
+                <p class="content-text-title"><i class="fa fa-check-circle contnet-check m-2"></i>أضف مشروع</p>
+                <p class="content-text-subTitle">أضف تفاصيل المشروع الذي تحتاج إنجازه والمهارات المطلوبة واحصل على عروض عمل المستقلين المتخصصين في دقائق.</p>
+                <p class="content-text-title"><i class="fa fa-check-circle contnet-check m-2"></i>أختر المقاول المناسب</p>
+                <p class="content-text-subTitle">قارن عروض المقاولين وتصفح ملفاتهم وتقييماتهم وأعمالهم, تفاوض معهم عبر الرسائل واختر الأفضل لتنفيذ مشروعك.</p>
+                <p class="content-text-title"><i class="fa fa-check-circle contnet-check m-2"></i>استلم المشروع</p>
+                <p class="content-text-subTitle">سيعمل المقاول الذي اخترته على مشروعك ويتابع معك حتى حصولك على نتائج العمل المتفق عليه وتسليم المشروع.</p>
+            </div>
+            <h1 class="contentTitle text-center">كيف يساعدك مقاول على إنجاز أعمالك</h1>
+            <div class="content-text">
+                <div class="content-text-wrapper d-flex justify-content-center m-auto">
+                    <div class="row d-flex col-12 mb-5">
+                        <div class="col-lg-4 col-md-6 col-sm-12 d-lg-flex d-md-flex d-sm-flex mb-3 flex-lg-row flex-md-row flex-sm-column">
+                            <div class="content-card d-flex flex-column">
+                                <img src="/assets/img/start-up.png" alt="">
+                                <h6 class="content-text-title m-sm-auto">أنجز اعمالك بسرعة و سهولة</h6>
+                                <p class="content-text-subTitle m-sm-auto mb-sm-3">انشر مشروعك واترك مهمة تنفيذه لأفضل المقاولين المحترفين</p>
+                            </div>
+                            <div class="content-card d-flex flex-column">
+                                <img src="/assets/img/start-up.png" alt="">
+                                <h6 class="content-text-title m-sm-auto">أنجز اعمالك بسرعة و سهولة</h6>
+                                <p class="content-text-subTitle m-sm-auto mb-sm-3">انشر مشروعك واترك مهمة تنفيذه لأفضل المقاولين المحترفين</p>
+                            </div>
+                            <div class="content-card d-flex flex-column">
+                                <img src="/assets/img/start-up.png" alt="">
+                                <h6 class="content-text-title m-sm-auto">أنجز اعمالك بسرعة و سهولة</h6>
+                                <p class="content-text-subTitle m-sm-auto mb-sm-3">انشر مشروعك واترك مهمة تنفيذه لأفضل المقاولين المحترفين</p>
+                            </div>
+                            <div class="content-card d-flex flex-column">
+                                <img src="/assets/img/start-up.png" alt="">
+                                <h6 class="content-text-title m-sm-auto">أنجز اعمالك بسرعة و سهولة</h6>
+                                <p class="content-text-subTitle m-sm-auto mb-sm-3">انشر مشروعك واترك مهمة تنفيذه لأفضل المقاولين المحترفين</p>
+                            </div>
+                            <div class="content-card d-flex flex-column">
+                                <img src="/assets/img/start-up.png" alt="">
+                                <h6 class="content-text-title m-sm-auto">أنجز اعمالك بسرعة و سهولة</h6>
+                                <p class="content-text-subTitle m-sm-auto mb-sm-3">انشر مشروعك واترك مهمة تنفيذه لأفضل المقاولين المحترفين</p>
+                            </div>
+                            <div class="content-card d-flex flex-column">
+                                <img src="/assets/img/start-up.png" alt="">
+                                <h6 class="content-text-title m-sm-auto">أنجز اعمالك بسرعة و سهولة</h6>
+                                <p class="content-text-subTitle m-sm-auto mb-sm-3">انشر مشروعك واترك مهمة تنفيذه لأفضل المقاولين المحترفين</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="/assets/js/main.js"></script>
 </body>
 </html>
